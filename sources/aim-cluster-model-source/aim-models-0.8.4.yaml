@@ -10,3 +10,9 @@ spec:
         - amdenterpriseai/aim-base
   versions:
     - ">=0.8.4"
+apiVersion: aim.silogen.ai/v1alpha1
+kind: AIMClusterModel
+metadata:
+  name: mahesh509-sarvamai-v1-0
+spec:
+  image: mahesh509/sarvamai:v1.0
